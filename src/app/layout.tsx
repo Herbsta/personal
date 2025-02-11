@@ -10,7 +10,7 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
-const TITLE = "Solubility VAE | Herbie";
+const TITLE = "Landing Page | Herbie";
 const DESCRIPTION =
   "";
 
