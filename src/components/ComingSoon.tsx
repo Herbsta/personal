@@ -29,7 +29,7 @@ const ComingSoon = () => {
     return (
         <Card className="flex flex-col max-w-[400px] min-w-[100px]">
             <CardHeader>
-                <CardTitle>Herbie Bingham{"'"}s Landing Page</CardTitle>
+                <CardTitle>WIP</CardTitle>
                 <CardDescription>Future projects coming soon...</CardDescription>
             </CardHeader>
             <CardContent>
