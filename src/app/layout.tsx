@@ -18,18 +18,18 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://herbiebingham.co.uk"),
   title: TITLE,
   description: DESCRIPTION,
-  // twitter: {
-  //   images: ["/assets/data-table-infinite.png"],
-  //   card: "summary_large_image",
-  //   title: TITLE,
-  //   description: DESCRIPTION,
-  // },
-  // openGraph: {
-  //   type: "website",
-  //   images: ["/assets/data-table-infinite.png"],
-  //   title: TITLE,
-  //   description: DESCRIPTION,
-  // },
+  twitter: {
+    images: ["/logo.png"],
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+  },
+  openGraph: {
+    type: "website",
+    images: ["/logo.png"],
+    title: TITLE,
+    description: DESCRIPTION,
+  },
 };
 
 export default function RootLayout({
