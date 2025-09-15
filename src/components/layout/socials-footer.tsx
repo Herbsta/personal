@@ -1,6 +1,6 @@
 import { ModeToggle } from "@/components/theme/toggle-mode";
 import { Button } from "@/components/ui/button";
-import { Github, Globe, Linkedin } from "lucide-react";
+import { Github , Linkedin, Scroll } from "lucide-react";
 import { Link } from "../custom/link";
 
 export function SocialsFooter() {
@@ -19,8 +19,8 @@ export function SocialsFooter() {
           </Link>
         </Button>
         <Button variant="ghost" size="sm" className="w-9 px-0" asChild>
-          <Link href="https://herbiebingham.co.uk/">
-            <Globe className="h-4 w-4" />
+          <Link href="/herbie-bingham-cv.pdf">
+            <Scroll className="h-4 w-4"/>
           </Link>
         </Button>
       </div>
