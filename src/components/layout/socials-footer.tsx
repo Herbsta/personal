@@ -25,7 +25,7 @@ export function SocialsFooter() {
         </Button>
       </div>
       <p className="text-muted-foreground text-center text-sm">
-        Powered by <Link href="">Herbie Bingham</Link> with Loughborough University
+        Powered by <Link href="https://www.linkedin.com/in/herbiebingham/">Herbie Bingham</Link>
       </p>
     </div>
   );
